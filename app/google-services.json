@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "427014197774",
+    "project_id": "online-mechanic-d18ec",
+    "storage_bucket": "online-mechanic-d18ec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:427014197774:android:9e44ff0efc053037bee25f",
+        "android_client_info": {
+          "package_name": "com.example.onlinemechanic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "427014197774-6claeekg1p7b3qk35f5hmvcb3p1gn9ih.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlbm8jHPWRNp8VbQ_QeSEYZxZJG48dr7k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "427014197774-6claeekg1p7b3qk35f5hmvcb3p1gn9ih.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

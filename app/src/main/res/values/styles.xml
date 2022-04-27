@@ -1,0 +1,32 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="MyMaterialTheme" parent="Theme.MaterialComponents.Light.Bridge">
+        <!-- Add attributes here -->
+        <item name="android:colorButtonNormal">@color/primary</item>
+        <item name="android:colorControlHighlight">@color/primary</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="textAppearanceButton">@style/AppTextAppearance.Button</item>
+    </style>
+    <!--To fix rendering in preview -->
+    <style name="AppTextAppearance.Button" parent="TextAppearance.MaterialComponents.Button">
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="leaf">
+        <item name="cornerSizeTopLeft">60%</item>           //can specify corner position
+        <!--<item name="cornerFamilyTopLeft">cut</item>-->
+        <item name="cornerSizeBottomRight">60%</item>
+        <!--<item name="cornerFamilyBottomRight">cut</item>-->
+    </style>
+
+    <style name="SplashTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_background</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:statusBarColor">@color/colorAccent</item>
+    </style>
+
+</resources>
